@@ -24,7 +24,7 @@ gulp.task("clean", function() {
 
 gulp.task("copy", function() {
   return gulp.src([
-    "source/fonts/**/*.{woff,woff2}",
+    "source/fonts/**/*.{otf,ttf}",
     "source/img/**",
     "source/js/**",
     "source/*.ico",
@@ -49,10 +49,10 @@ gulp.task("css", function () {
     .pipe(gulp.dest("build/css"));
 });
 
-gulp.task("normalize", function () {
-  return gulp.src("source/css/normalize.css")
+gulp.task("normolize", function () {
+  return gulp.src("source/css/normolize.css")
     .pipe(csso())
-    .pipe(rename("normalize.min.css"))
+    .pipe(rename("normolize.min.css"))
     .pipe(gulp.dest("build/css"));
 });
 
@@ -115,7 +115,7 @@ gulp.task("build", gulp.series(
   "clean",
   "copy",
   "css",
-  "normalize",
+  "normolize",
   "compress",
   "sprite",
   "html",

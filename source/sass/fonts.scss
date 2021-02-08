@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Myriad Pro Light SemiExtended";
+  font-weight: normal;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("MyriadPro-LightSemiExt.eot");
+  src: url("MyriadPro-LightSemiExt.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Myriad-Pro-Light-SemiExtended.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Myriad Pro Semibold";
+  font-weight: normal;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("MyriadPro-Semibold.eot");
+  src: url("MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Myriad-Pro-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: normal;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("Helvetica-Neue.eot");
+  src: url("Helvetica-Neue.eot?#iefix") format("embedded-opentype"),
+   url("../fonts/Helvetica-Neue.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SFUIDisplay";
+  font-weight: normal;
+  font-style: normal;
+
+  font-display: swap;
+  src: url("../fonts/sf-ui-display-light.ttf") format("truetype");
+}
