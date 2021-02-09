@@ -23,8 +23,10 @@
     "posthtml-include": "1.6.0"
   },
   "scripts": {
-    "build": "gulp clean && gulp copy && gulp css",
-    "start": "gulp start"
+    "build": "gulp clean && gulp copy && gulp css && gulp normolize && gulp compress && gulp sprite && gulp html && gulp htmlmin",
+    "start": "gulp start",
+    "imagemin": "gulp imagemin",
+    "webp": "gulp webp"
   },
   "repository": {
     "type": "git",
