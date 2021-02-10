@@ -1,0 +1,26 @@
+.header {
+  display: grid;
+  grid-template-areas: "nav logo search phone cart";
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.header__nav {
+  grid-area: nav;
+}
+
+.header__logo {
+  grid-area: logo;
+}
+
+.header__search {
+  grid-area: search;
+}
+
+.header__phone {
+  grid-area: phone;
+}
+
+.header__cart {
+  grid-area: cart;
+}

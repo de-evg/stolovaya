@@ -1,0 +1,21 @@
+.page-grid {
+  display: grid;
+  grid-template-columns: $minMobile;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.page-grid__header {
+  grid-area: header;
+}
+
+.page-grid__main {
+  grid-area: main;
+}
+
+.page-footer {
+  grid-area: footer;
+}
